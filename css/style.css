@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Circle';
+    color: #ffffff;
+    outline: none;
+ }
+body{
+    background-color: antiquewhite;
+}
+.MainPage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.MainPage img{
+    height: 500px;
+    pointer-events: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+.Counter__Text{
+    text-align: center;
+    color: black;
+}
+#clicker {
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out; /* Добавляем плавность */
+  }
+.grass{
+    border: 1px greenyellow solid;
+    height: 50px;
+    background-color: greenyellow;
+}
+.grass__ground{
+    border: 1px brown solid;
+    height: 100vh;
+    background-color: brown;
+}
+.Upgrade{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 80px;
+    margin: 20px;
+    padding: 10px;
+}
+.Upgrade__Border{
+    border: 1px white solid;
+    width: 100px;
+    height: 100px;
+}
+
+
