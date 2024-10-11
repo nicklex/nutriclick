@@ -16,7 +16,7 @@ body{
     position: relative;
 }
 .MainPage img{
-    height: 500px;
+    height: 300px;
     pointer-events: none;
     -moz-user-select: none; 
     -webkit-user-select: none; 
